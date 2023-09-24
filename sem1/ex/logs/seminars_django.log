@@ -1,0 +1,23 @@
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 13
+One page started
+"GET /5/one/ HTTP/1.1" 200 10
+One page started
+"GET /5/one/ HTTP/1.1" 200 10
+One page started
+"GET /5/one/ HTTP/1.1" 200 10
+One page started
+"GET /5/one/ HTTP/1.1" 200 8
+One page started
+"GET /5/one/ HTTP/1.1" 200 8
+One page started
+"GET /5/one/ HTTP/1.1" 200 8
+One page started
+"GET /5/one/ HTTP/1.1" 200 10
+One page started
+"GET /5/one/ HTTP/1.1" 200 10
+One page started
+"GET /5/one/ HTTP/1.1" 200 10
+One page started
+"GET /5/one/ HTTP/1.1" 200 10
