@@ -121,6 +121,29 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+# LOGGING = {
+#     'version': 1,
+#     'disable_existing_loggers': False,
+#     'handlers': {
+#         'console': {
+#             'class': 'logging.StreamHandler',
+#         }, 'file': {
+#             'class': 'logging.FileHandler',
+#             'filename': './logs/seminars_django.log',
+#         },
+#     },
+#     'loggers': {
+#         'django': {
+#             'handlers': ['console', 'file'],
+#             'level': 'INFO',
+#         }, 'task5': {
+#             'handlers': ['console', 'file'],
+#             'level': 'DEBUG',
+#             'propagate': True,
+#         }, },
+# }
+
+
 LOGGING = {
     'version': 1,
     'disable_existing_loggers': False,
@@ -129,14 +152,14 @@ LOGGING = {
             'class': 'logging.StreamHandler',
         }, 'file': {
             'class': 'logging.FileHandler',
-            'filename': './logs/seminars_django.log',
+            'filename': './logs/dz1_django.log',
         },
     },
     'loggers': {
         'django': {
             'handlers': ['console', 'file'],
             'level': 'INFO',
-        }, 'task5': {
+        }, 'dz1': {
             'handlers': ['console', 'file'],
             'level': 'DEBUG',
             'propagate': True,
