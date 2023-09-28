@@ -29,7 +29,9 @@
     <last-used-providers />
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
-    <open-files />
+    <open-files>
+      <object connection-id="ac5eba2e-49b1-4d15-b63c-d7decd21e73b" object-ref="consoles/Connection" />
+    </open-files>
   </component>
   <component name="DBNavigator.Project.ObjectQuickFilterManager">
     <last-used-operator value="EQUAL" />
@@ -47,13 +49,8 @@
           <driver-source value="BUNDLED" />
           <driver-library value="" />
           <driver value="" />
-          <url-type value="FILE" />
-          <host value="" />
-          <port value="" />
-          <database value="" />
-          <tns-folder value="" />
-          <tns-profile value="" />
-          <files />
+          <url-type value="CUSTOM" />
+          <url value="jdbc:sqlite:" />
           <type value="NONE" />
           <user value="" />
           <deprecated-pwd value="" />
@@ -141,13 +138,8 @@
           <driver-source value="BUNDLED" />
           <driver-library value="" />
           <driver value="" />
-          <url-type value="FILE" />
-          <host value="" />
-          <port value="" />
-          <database value="" />
-          <tns-folder value="" />
-          <tns-profile value="" />
-          <files />
+          <url-type value="CUSTOM" />
+          <url value="jdbc:sqlite:" />
           <type value="NONE" />
           <user value="" />
           <deprecated-pwd value="" />
