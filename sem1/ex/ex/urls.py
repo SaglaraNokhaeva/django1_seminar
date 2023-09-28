@@ -22,5 +22,6 @@ urlpatterns = [
     path('', include('myapp.urls')),
     path('5/', include('task5.urls')),
     path('dz1/', include('dz1.urls')),
+    # path('dz2/', include('dz2.urls')),
 
 ]
