@@ -14,3 +14,5 @@ About page started
 "GET /dz1/about/ HTTP/1.1" 200 167
 About page started
 "GET /dz1/about/ HTTP/1.1" 200 167
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
