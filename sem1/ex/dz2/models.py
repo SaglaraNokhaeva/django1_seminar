@@ -3,21 +3,10 @@
 # Клиент может иметь несколько заказов. Заказ может содержать несколько товаров. Товар может входить в несколько заказов.
 #
 from django.db import models
+
 # Create your models here.
 
 
-# Поля модели «Клиент»:
-# — имя клиента
-# — электронная почта клиента
-# — номер телефона клиента
-# — адрес клиента
-# — дата регистрации клиента
-class Сustomer(models.Model):
-    name = models.CharField(max_length=100)
-    email = models.EmailField()
-    phone = models.CharField(max_length=12)
-    adress = models.CharField(max_length=150)
-    date = models.DateField()
 
 
 # Поля модели «Товар»:
@@ -31,6 +20,20 @@ class Product(models.Model):
     description = models.TextField()
     price = models.DecimalField(max_digits=8, decimal_places=2)
     count = models.IntegerField()
+    date = models.DateField()
+
+
+# Поля модели «Клиент»:
+# — имя клиента
+# — электронная почта клиента
+# — номер телефона клиента
+# — адрес клиента
+# — дата регистрации клиента
+class Сustomer(models.Model):
+    name = models.CharField(max_length=100)
+    email = models.EmailField()
+    phone = models.CharField(max_length=12)
+    adr = models.CharField(max_length=150)
     date = models.DateField()
 
 

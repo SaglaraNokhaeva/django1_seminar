@@ -141,8 +141,13 @@
           <driver-source value="BUNDLED" />
           <driver-library value="" />
           <driver value="" />
-          <url-type value="CUSTOM" />
-          <url value="jdbc:sqlite:" />
+          <url-type value="FILE" />
+          <host value="" />
+          <port value="" />
+          <database value="" />
+          <tns-folder value="" />
+          <tns-profile value="" />
+          <files />
           <type value="NONE" />
           <user value="" />
           <deprecated-pwd value="" />
